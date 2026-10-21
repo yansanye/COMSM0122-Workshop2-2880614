@@ -1,0 +1,17 @@
+{
+  "name": "bft-lab",
+  "version": "1.0.0",
+  "description": "Breaking Byzantine Fault Tolerance",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "honest": "node scenarios/honest.js",
+    "byzantine": "node scenarios/byzantine.js",
+    "equivocation": "node scenarios/equivocation.js",
+    "key-theft": "node scenarios/key_theft.js",
+    "sybil": "node scenarios/sybil.js",
+    "quorum": "node scenarios/quorum_tampering.js"
+  }, 
+  "author": "Inah Omororonyia",
+  "license": "ISC"
+}
